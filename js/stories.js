@@ -116,7 +116,7 @@ async function submitNewStory(evt) {
   $submitForm.slideUp("slow");
   $submitForm.trigger("reset");
 }
-
+// event listener
 $submitForm.on("submit", submitNewStory);
 
 /******************************************************************************
